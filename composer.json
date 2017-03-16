@@ -1,0 +1,15 @@
+{
+    "require-dev": {
+        "phpunit/phpunit": "5.7.x-dev",
+        "phpmd/phpmd" : "2.6.*",
+        "squizlabs/php_codesniffer": "2.*"
+
+    },
+
+    "autoload":	{
+        "psr-4": {
+          "Workshop\\": "src/",
+          "Workshop\\Test\\": "test/"
+        }
+    }
+}
